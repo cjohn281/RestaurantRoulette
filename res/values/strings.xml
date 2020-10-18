@@ -1,0 +1,57 @@
+<resources>
+
+    <string name="app_name">Restaurant Roulette</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Restaurant Roulette</string>
+    <string name="select">Select:</string>
+    <string name="within">Within:</string>
+    <string name="go">Go!</string>
+    <string name="exit">Exit</string>
+    <string name="favorites">Favorites</string>
+    <string name="map">Map</string>
+    <string name="back">Back</string>
+    <string name="find">Add Favorites</string>
+    <string name="image">Restaurant Image</string>
+    <string name="rating">Rating Image</string>
+    <string name="marker">Map Marker</string>
+    <string name="lookup">Search for Restaurants</string>
+    <string name="search">Search</string>
+    <string name="cancel">Cancel</string>
+    <string name="favoriteDes">Favorites</string>
+
+    <string-array name="choices">
+        <item>All</item>
+        <item>Barbeque</item>
+        <item>Breakfast</item>
+        <item>Buffets</item>
+        <item>Burgers</item>
+        <item>Cafes</item>
+        <item>Cajun</item>
+        <item>Chinese</item>
+        <item>Fast Food</item>
+        <item>French</item>
+        <item>Greek</item>
+        <item>Italian</item>
+        <item>Japanese</item>
+        <item>Mexican</item>
+        <item>Pizza</item>
+        <item>Sandwiches</item>
+        <item>Southern</item>
+        <item>Steak</item>
+        <item>Sushi</item>
+        <item>Vegetarian</item>
+        <item>Wings</item>
+    </string-array>
+    <string-array name="distances">
+        <item>5 Miles</item>
+        <item>15 Miles</item>
+        <item>25 Miles</item>
+    </string-array>
+
+    <string name="title_activity_result">Result</string>
+    <string name="title_activity_favorites">Favorites</string>
+    <string name="title_activity_location">Location</string>
+    <string name="title_activity_search_results">Search Results</string>
+
+</resources>

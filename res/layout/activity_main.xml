@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rrbg" >
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true" >
+        
+    	<RelativeLayout
+        	android:id="@+id/selectionLayout"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content" >
+        
+    		<LinearLayout
+    	    	android:id="@+id/selectionLine1"
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:weightSum="3" >
+        
+    			<TextView
+        			android:layout_width="0dp"
+        			android:layout_height="wrap_content"
+        			android:layout_weight="1"
+        			android:textColor="#ffffff"
+        			android:text="@string/select"
+        			android:gravity="center_horizontal"
+        			android:textSize="20dp" />
+
+    			<Spinner
+        			android:id="@+id/choiceSpin"
+        			android:layout_width="0dp"
+        			android:layout_height="wrap_content"
+        			android:layout_weight="2"
+        			android:entries="@array/choices" />
+    
+			</LinearLayout>
+		
+    		<LinearLayout
+        		android:layout_width="fill_parent"
+        		android:layout_height="wrap_content"
+        		android:layout_below="@+id/selectionLine1"
+        		android:layout_marginTop="5dp"
+        		android:weightSum="3" >
+        
+    			<TextView
+        			android:layout_width="0dp"
+        			android:layout_height="wrap_content"
+        			android:layout_weight="1"
+        			android:textColor="#ffffff"
+        			android:text="@string/within"
+        			android:gravity="center_horizontal"
+        			android:textSize="20dp" />
+
+    			<Spinner
+        			android:id="@+id/distanceSpin"
+        			android:layout_width="0dp"
+        			android:layout_height="wrap_content"
+        			android:layout_weight="2"
+        			android:entries="@array/distances" />
+    
+			</LinearLayout>
+	
+    	</RelativeLayout>
+	
+    	<Button 
+        	android:id="@+id/goButton"
+        	android:layout_width="250dp"
+        	android:layout_height="wrap_content"
+        	android:layout_centerHorizontal="true"
+        	android:layout_below="@+id/selectionLayout"
+        	android:layout_marginTop="25dp"
+        	android:text="@string/go"
+        	android:textColor="#ffffff" />
+    	
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:weightSum="2" >
+    	
+        <Button
+            android:id="@+id/exitButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/exit"
+            android:textColor="#ffffff" />
+        
+        <Button
+            android:id="@+id/favoritesButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/favorites"
+            android:textColor="#ffffff" />
+        
+    </LinearLayout>
+
+</RelativeLayout>

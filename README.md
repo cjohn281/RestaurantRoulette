@@ -1,6 +1,6 @@
 # RestaurantRoulette
 
-Restaurant Roulette a restaurant suggestion service for Android mobile devices.
+Restaurant Roulette is a restaurant suggestion service for Android mobile devices.
 
 If you and a group of people are having a hard time deciding where to eat, the app will search for nearby restaurants and will randomly select one to display.  If you are unhappy with the selection, you may decide try again.
 

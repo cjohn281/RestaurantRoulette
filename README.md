@@ -1,4 +1,4 @@
-# RestaurantRoulette
+# Restaurant Roulette
 
 Restaurant Roulette is a restaurant suggestion service for Android mobile devices.
 
